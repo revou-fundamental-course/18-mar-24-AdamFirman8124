@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+/* Navbar Styles */
+nav {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ffffff;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    background-color: #ccc;
+    padding: 5px;
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.travel-image {
+    text-align: center;
+    margin-left: 70px;
+}
+
+.travel-image img {
+    max-width: 600px;
+    height: auto;
+    margin-right: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.description {
+    text-align: center;
+    margin-top: 0x; /* Atur jarak antara gambar dan teks */
+}
+
+.contact {
+    background-color: #818181;
+    padding: 40px;
+    flex-grow: 1;
+    margin-right: 70px;
+    border-radius: 20px;
+}
+
+.travel-image img.hidden {
+    opacity: 0;
+}
+
+.packages {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.packages-header {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    margin: 0 15px 20px;
+    width: calc(33.33% - 30px);
+    max-width: 300px;
+    vertical-align: top;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Contact Form Styles */
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form select {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+footer p {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.cta-button {
+    background-color: #0c3c3d;
+    color: #ffffff;
+    border: #0c3c3d;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+.cta-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
