@@ -10,6 +10,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px 50px;
+
 }
 
 /* Navbar Styles */
@@ -47,7 +48,7 @@ nav ul li a {
 
 .contact {
     background-color: #ccc;
-    padding: 5px;
+    padding: 1px;
     grid-column: 2 / 3;
     display: flex;
     flex-direction: column;
